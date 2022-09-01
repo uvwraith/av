@@ -1,0 +1,175 @@
+.form-control {
+    font-size: 1.2em !important;
+}
+
+.full-view {
+	display: none !important;
+}
+	
+.mobile-view {
+	display: block !important;
+}
+
+.list-group-item {
+	border-color: #ccc !important;
+	border-radius: 0 !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+	color: #00457c !important;
+	font-size: 1.0625rem !important;
+}
+
+.panel-heading {
+	background-color: #5987b9 !important;
+	border-color: #ccc !important;
+	color: white !important;
+	font-size: 1.0625rem !important;
+}
+
+.panel.ui-accordion .panel-body {
+	background-color: #f5f9fe !important;
+	border-color: #ccc !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+	color: #00457c !important;
+	font-size: 1.0625rem !important;	
+}
+
+.circle18 {
+	width: 18px;
+    height: 18px;
+    line-height: 18px;
+    background: #001b44;
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+    display: inline-block;
+    text-align: center;
+    float: left;	
+}
+
+img.centerme {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.glyphicon-plus-sign {
+	color: #5987b9 !important;
+}
+
+.panel.ui-accordion .panel-body p.accordian-title {
+	padding-left: 5px !important;
+	width: 85% !important;
+	float: left !important;
+	margin: 0 !important;
+}
+
+.panel.ui-accordion .panel-collapse button, .panel.ui-accordion .panel-collapse .ln-csr-mobile a.btn {
+    background-color: #f20000 !important;
+    border-color: #d90000 !important;
+    color: white !important;
+    font-size: .9375rem !important;
+    margin-left: 15px !important;
+    margin-top: 10px !important;
+}
+
+.panel.ui-accordion .content {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+}
+
+.panel.ui-accordion .panel-collapse {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.panel.detail-banner .panel-heading {
+    background-color: #709ccc !important;
+    border: 0;
+    margin: 10px 10px 0 10px !important;
+    padding: 5px 10px !important;
+    color: white !important;
+    font-size: 1.375rem !important;
+    font-weight: 500 !important;
+}
+
+.panel.content1 .panel-heading {
+    font-size: 1.625rem !important;
+    color: #709ccc !important;
+	background-color: white !important;
+    border-bottom-width: 0 !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 5px !important;
+}
+
+.panel.detail-banner .panel-body {
+    padding: 0 10px !important;
+}
+
+.sub-header {
+    font-size: 1.625rem !important;
+    color: #709ccc !important;
+}
+
+.ln-csr-mobile {
+    background-color: #f20000 !important;
+    border-color: #d90000 !important;
+    color: white !important;
+    font-size: .9375rem !important;
+}
+
+.ln-content-mobile {
+    background-color: #f20000 !important;
+    border-color: #d90000 !important;
+    color: white !important;
+    font-size: .9375rem !important;
+    margin-left: 15px !important;
+    margin-top: 10px !important;
+}
+
+.ln-content-page {
+    background-color: #f20000 !important;
+    border-color: #d90000 !important;
+    color: white !important;
+    font-size: .9375rem !important;
+}
+
+.panel-heading-maa {
+    background-color: white;
+    border-bottom-width: 0;
+    color: #00457c;
+    font-size: 1.7rem;
+    padding-bottom: 0;    
+	padding: 10px 15px 0px;
+}
+
+.panel.locations-search .panel-heading-loc {
+    background-color: #ecebeb;
+    border-color: #ecebeb;
+    color: #5987b9;
+    font-size: 1.0625rem;
+	padding: 10px 15px;
+}
+
+ .panel.locations-search .panel-body {
+    background-color: #ecebeb;
+    border-color: #ecebeb;
+    border-style: solid;
+    border-width: 1px;
+    color: #5987b9;
+}
+
+.glyphicon-chevron-left {
+    color: #f20000 !important;
+    padding-right: 5px !important;
+}
+
+.panel.nav {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.panel.nav a {
+	color: #337ab7;
+}
